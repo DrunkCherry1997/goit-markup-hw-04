@@ -168,9 +168,39 @@ margin-right: 0;
 
 /* Унікальний контент сторінки */
 .main-styles {
+    position:relative;
     background-color: #2e2f42;
-    padding: 188px 0;
+   padding:0;
     text-align: center;
+
+       
+       
+   
+}
+.background-img-container {
+    position: relative;
+    width: 100%;
+    
+    background-size: cover;
+        background-position: center center;
+        
+}
+
+.background-img-container::before {
+    content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7));
+                
+}
+.background-img-container img{
+    display: block;
+        width: 100%;
+        height: auto;
 }
 .container {
     width: 1158px;
@@ -178,7 +208,10 @@ margin-right: 0;
         margin: 0 auto;
 }
 
+
+
 .main-title {
+    
     font-size: 56px;
     line-height: 1.07;
 
@@ -191,13 +224,25 @@ margin-right: 0;
     line-height: 1.07;
   
     margin: 0 auto 48px;
-
+position: absolute;
+    top: 42%;
+    /* Розміщуємо по вертикалі посередині секції */
+    left: 50%;
+    /* Розміщуємо по горизонталі посередині секції */
+    transform: translate(-50%, -50%);
+    /* Центруємо відносно батьківського контейнера */
+    z-index: 2;
+    /* Забезпечуємо розміщення поверх фону */
 
 
 }
 
 .button-type {
-    
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 63%;
     background: var(--IRIS, #4D5AE5);
     
     color: var(--WHITE, #FFF);
@@ -358,6 +403,11 @@ text-align: center;
     letter-spacing: 0.32px;
     
 }
+.icon { 
+    width: 40px;
+        height: 40px;
+}
+
 
 
 /* Портфоліо */
