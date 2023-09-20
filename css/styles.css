@@ -30,6 +30,16 @@ img {
     
 }
 
+.header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 
 
 .container-first {
@@ -133,15 +143,6 @@ img {
 .navigation-list li:first-child .menu-nav:hover,
 .navigation-list li:first-child .menu-nav:focus {
     color: #404bbf;
-}
-.header::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
 }
 
 /* Адрес */
