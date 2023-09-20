@@ -554,10 +554,7 @@ overflow: hidden;
 
 
 /* Футер сторінки */
-.container-wrapper-footer {
-    display: flex;
-    align-items: baseline;
-}
+
 .footer-style {
     background-color: #2e2f42;
     padding-top: 120px;
@@ -565,11 +562,20 @@ overflow: hidden;
 
 
 }
+
+.container-last{
+    width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+        align-items: baseline;
+        display: flex;
+}
+
 .container-footer {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-   
+  
     margin-right: 120px;
    
 }
@@ -616,6 +622,10 @@ overflow: hidden;
     
 }
 .footer-social-media-container{
+  padding-right: 540px;
+
+ 
+    
 
 }
 .footer-media-paragragh {
@@ -629,6 +639,7 @@ font-weight: 500;
 .media-list-footer {
     display: flex;
     gap: 16px;
+    list-style-type: none;
   
 }
 .footer-media-item {
