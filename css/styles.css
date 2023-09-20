@@ -614,6 +614,7 @@ font-weight: 500;
 .media-list-footer {
     display: flex;
     gap: 16px;
+  
 }
 .footer-media-item {
     width: 40px;
