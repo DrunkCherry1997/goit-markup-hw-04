@@ -382,7 +382,7 @@ clip: rect(0 0 0 0); overflow: hidden;
     list-style-type: none;
 }
 .svg-class {
-    fill: var(--your-variable, #f4f4fd);
+    fill: var(--secondary-color, #f4f4fd);
     
 }
 
