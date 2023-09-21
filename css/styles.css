@@ -658,15 +658,13 @@ font-weight: 500;
     justify-content: center;
 }
 
-.media-list-footer li:first-child .footer-media-item {
+.media-list-footer li:first-child .footer-media-link {
     
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.media-list-footer li:not(:first-child) .footer-media-item {
-   
-}
+
 .footer-media-link:hover,
 .footer-media-link:focus {
     background-color: #31d0aa;
