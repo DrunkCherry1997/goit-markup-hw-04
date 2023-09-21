@@ -378,11 +378,11 @@ clip: rect(0 0 0 0); overflow: hidden;
     list-style-type: none;
 }
 .svg-class {
-    fill: var(--your-variable, #f4f4fd);
+    fill: var(--fill, #f4f4fd);
     
 }
 :root {
-    --your-variable: #f4f4fd;
+    --fill: #f4f4fd;
    
 }
 .instagram {
