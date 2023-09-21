@@ -215,6 +215,7 @@ max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+margin: 0 auto;
 }
 
 
@@ -457,6 +458,7 @@ text-align: center;
     line-height: 1.5em;
     /* 150% */
     letter-spacing: 0.32px;
+    margin-bottom: 8px;
     
 }
 
@@ -564,10 +566,7 @@ overflow: hidden;
 }
 
 .container-footer {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-   max-height: 72px;
+  
     margin-right: 120px;
    
 }
@@ -614,7 +613,7 @@ overflow: hidden;
     
 }
 .footer-social-media-container{
-  padding-right: 540px;
+  
 
  
     
