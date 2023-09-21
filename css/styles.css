@@ -30,18 +30,6 @@ img {
     
 }
 
-.header::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
-
-
-
 .container-first {
     display: flex;
     width: 1158px;
@@ -56,9 +44,6 @@ img {
      margin: 0 auto; 
 
 }
-
-
-
 .navigation {
     display: flex;
     align-items: center
@@ -119,6 +104,22 @@ img {
 
     letter-spacing: 0.32px;
 
+}
+.menu-nav::after {
+    content: '';
+    /* Вміст псевдоелемента */
+    position: absolute;
+    /* Позиція псевдоелемента */
+    left: 0;
+    /* Відстань між лівим краєм псевдоелемента і лівим краєм батьківського елемента */
+    bottom: -1px;
+    /* Відстань між нижнім краєм псевдоелемента і нижнім краєм батьківського елемента */
+    height: 4px;
+    /* Висота псевдоелемента */
+    background-color: #404bbf;
+    /* Колір фону псевдоелемента */
+    border-radius: 2px;
+    /* Радіус закруглення кутів псевдоелемента */
 }
 
 
@@ -575,7 +576,7 @@ overflow: hidden;
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-  
+   max-height: 72px;
     margin-right: 120px;
    
 }
