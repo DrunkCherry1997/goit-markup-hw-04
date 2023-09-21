@@ -403,7 +403,10 @@ clip: rect(0 0 0 0); overflow: hidden;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-
+:root {
+    --your-variable: #4d5ae5;
+   
+}
 .insta-link:hover,
 .insta-link:focus {
     background-color: #404bbf;
