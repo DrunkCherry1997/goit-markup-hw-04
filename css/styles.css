@@ -385,6 +385,7 @@ clip: rect(0 0 0 0); overflow: hidden;
 .svg-class {
     fill: var(--secondary-color, #f4f4fd);
     
+    
 }
 
 .instagram {
@@ -542,7 +543,7 @@ overflow: hidden;
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
-    
+
 }
 
 
