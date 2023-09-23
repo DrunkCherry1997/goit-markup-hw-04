@@ -94,12 +94,6 @@ img {
    
 }
 
-.rectangle {
-    width: 48px;
-        height: 4px;
-        border-radius: 2px;
-            background: var(--OCEAN, #404BBF);
-}
 
 .menu-nav {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -112,7 +106,7 @@ img {
     letter-spacing: 0.32px;
 
 }
-.menu-nav::after {
+.menu-nav:hover::after {
     content: '';
     
     position: absolute;
@@ -134,6 +128,8 @@ img {
     text-decoration: none;
     padding: 24px 0;
     display: block;
+    position: relative;
+
  
 }
 
@@ -144,7 +140,7 @@ img {
 
 .navigation-list li:first-child .menu-nav { 
     position: relative;
-    color: #404bbf;
+   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
